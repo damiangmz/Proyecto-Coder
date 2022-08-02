@@ -1,0 +1,130 @@
+.header__video {
+    width: 100%;
+}
+
+.main__sec1 {
+    padding: 0px;
+
+    .card__buttom {
+        margin: 20px;
+
+        .hov {
+            font-family: "Roboto", sans-serif;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(51, 49, 49, 0.945);
+            font-size: large;
+            border: 0px;
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    h1 {
+        color: white;
+    }
+
+    &__box {
+        background-color: $amarillo;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+
+        &-1 {
+            justify-content: center;
+        }
+
+
+        &-2 {
+            overflow: hidden;
+            max-width: 100%;
+
+            &-img {
+                width: 100%;
+            }
+        }
+
+    }
+
+}
+.navbar-toggler{
+    background-color: white;
+}
+.seccion2 {
+    img {
+        animation: rotation 15s infinite linear forwards;
+
+        @keyframes rotation {
+            0% {
+                transform: rotateX(0deg);
+            }
+
+            25% {
+                transform: rotateX(20deg);
+            }
+
+            50% {
+                transform: rotateX(5deg);
+            }
+
+            75% {
+                transform: rotateX(-20deg);
+            }
+
+            100% {
+                transform: rotateX(0deg);
+            }
+        }
+    }
+
+    &__caja {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 5px;
+
+        h3 {
+            text-align: center;
+            color: $amarillo;
+
+        }
+
+        p {
+            color: white;
+            text-align: left;
+            padding: 10px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+    }
+
+}
+
+.section__logo {
+    background-color: $amarillo;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(163, 155, 155);
+
+    img {
+        width: 100px;
+        padding: 10px;
+    }
+}
+
+.section3__title {
+    text-align: center;
+    align-items: center;
+
+    &-text {
+        font-size: 3vw;
+    }
+
+}
+
+
+.social__box__img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

@@ -1,0 +1,94 @@
+
+.btn__pedir {
+    position: fixed;
+    width: 120px;
+    height: 35px;
+    border-radius: 80px 0px 0px 90px;
+    bottom: 20px;
+    right: 0px;
+    background-color: $amarillo;
+    color: black;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    z-index: 100;
+
+}
+
+.main {
+    &__section {
+        &__img-1 {
+            width: 100%;
+        }
+
+        &__box {
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            padding: 20px;
+
+            &__card {
+                background-color: $amarillo;
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                h2 {
+                    color: white;
+                }
+
+                h5 {
+                    color: white;
+                }
+
+                &-left {
+                    padding: 50px
+                }
+
+            }
+        }
+
+    }
+
+}
+
+.footer {
+   
+    li{
+        padding: 15px;
+        list-style: none;
+        
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(94, 93, 91, 1) 0%,
+        rgba(5, 3, 0, 1) 100%);
+    padding: 50px;
+    color: white;
+
+    &__box {
+        max-width: 300px;
+        
+
+        &-img {
+            width: 180px;
+            height: 160px;
+        
+        }
+    }
+}

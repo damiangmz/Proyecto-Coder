@@ -1,0 +1,37 @@
+fieldset {
+    background-color: rgb(255, 209, 6);
+    width: 700px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: "Roboto Slab", serif;
+    font-size: medium;
+
+    input {
+        width: 250px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    textarea {
+        margin: 15px;
+        text-align: center;
+    }
+    .form__imput {
+        width: 100px;
+        background-color: rgb(216, 60, 12);
+        color: white;
+        padding: 10px;
+        border-width: thin;
+        border-radius: 10px;
+        border-color: white;
+        box-shadow: 2px 1px 1px rgb(92, 92, 92);
+        cursor: pointer;
+      }
+}
+.section__map {
+    padding-bottom: 10px;
+    width: 100%;
+    height: 50vh;
+  }
