@@ -253,6 +253,8 @@ h4 {
     padding: 0px; }
   .seccion2__caja p {
     text-align: center !important; }
+  .section3__title-text {
+    font-size: 20px !important; }
   .main__sec1__box {
     margin: 0px; }
   .seccion2 {
@@ -333,8 +335,6 @@ h4 {
     display: flex;
     flex-direction: column !important;
     align-items: center; }
-    .social__box__img .img_soc {
-      width: 100%; }
   .social__box {
     justify-items: center;
     align-items: center; }
