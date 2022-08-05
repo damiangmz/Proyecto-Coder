@@ -1,6 +1,7 @@
 body {
   background-image: url(../assets/background.webp);
-  background-size: contain; }
+  background-size: contain;
+  color: white; }
 
 .btn__pedir {
   box-shadow: 5px 5px 10px;
