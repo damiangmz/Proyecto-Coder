@@ -2,7 +2,27 @@ body {
     background-image: url(../assets/background.webp);
     background-size: contain;
 }
+.btn__pedir{
+  box-shadow: 5px 5px 10px;
+  border: 1px solid #000000;
+  text-decoration: none;
+  position: fixed;
+  width: 120px;
+  height: 35px;
+  border-radius: 80px 0px 0px 90px;
+  bottom: 20px;
+  right: 0px;
+  background-color: $amarillo;
+  color: black;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  z-index: 100;
+}
+
 .header {
+  
+
     &__nav {
         width: 100%;
         background-image: url(../assets/background.webp);
@@ -430,7 +450,7 @@ h4{
     }
   
     fieldset {
-      width: 80%;
+      width: 80%!important;
     }
     .text_cont {
       text-align: center;
