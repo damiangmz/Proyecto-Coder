@@ -1,7 +1,6 @@
 body {
   background-image: url(../assets/background.webp);
-  background-size: contain;
-  color: white; }
+  background-size: contain; }
 
 .btn__pedir {
   box-shadow: 5px 5px 10px;
@@ -254,7 +253,9 @@ h4 {
 @media (max-width: 425px) {
   fieldset {
     width: 80%;
-    min-width: 100%; } }
+    min-width: 100%; }
+  .seccion2__caja p {
+    margin: 0px !important; } }
 
 @media (max-width: 575px) {
   .footer__box {
@@ -555,6 +556,9 @@ fieldset {
   border: #030303;
   margin-bottom: 45px;
   text-align: center; }
+
+.card {
+  z-index: -1; }
 
 .section__nosotros h1 {
   font-family: "Roboto Slab", serif;

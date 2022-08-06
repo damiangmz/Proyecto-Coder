@@ -1,7 +1,6 @@
 body {
     background-image: url(../assets/background.webp);
     background-size: contain;
-    color: white;
 }
 .btn__pedir{
   box-shadow: 5px 5px 10px;
@@ -401,6 +400,9 @@ h4{
     fieldset {
       width: 80%;
       min-width: 100%;
+    }
+    .seccion2__caja p{
+      margin: 0px!important;
     }
   }
   @media (max-width: 575px) {
