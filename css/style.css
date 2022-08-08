@@ -416,18 +416,30 @@ h4 {
 
 .main__sec1 {
   padding: 0px; }
-  .main__sec1 .card__buttom {
-    margin: 20px; }
-    .main__sec1 .card__buttom .hov {
-      font-family: "Roboto", sans-serif;
-      margin-top: 20px;
-      padding: 10px;
-      background-color: rgba(51, 49, 49, 0.945);
-      font-size: large;
-      border: 0px;
-      border-radius: 8px;
-      color: white;
-      cursor: pointer; }
+  .main__sec1 .card__buttom .hov {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #110d0e, #443f3b, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75); }
+    .main__sec1 .card__buttom .hov:hover {
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out; }
   .main__sec1 h1 {
     color: white; }
   .main__sec1__box {
