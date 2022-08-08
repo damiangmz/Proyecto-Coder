@@ -27,14 +27,8 @@ body {
     display: inline-block;
     padding: 40px;
     font-size: 18px; }
-  .header__nav__ul-hov {
-    background: linear-gradient(to right, #000808, #9aa5a5), linear-gradient(to right, red, #f1880f, #eeff07);
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: 400ms; }
-    .header__nav__ul-hov:hover {
-      background-size: 0 3px, 100% 3px; }
+  .header__nav__ul-hov:hover {
+    background-size: 0 3px, 100% 3px; }
 
 h4 {
   font-family: "Roboto Slab", serif; }
@@ -428,7 +422,7 @@ h4 {
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -436,7 +430,7 @@ h4 {
     box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75); }
     .main__sec1 .card__buttom .hov:hover {
       background-position: 100% 0;
-      moz-transition: all .4s ease-in-out;
+      -moz-transition: all .4s ease-in-out;
       -o-transition: all .4s ease-in-out;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out; }
