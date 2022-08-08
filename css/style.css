@@ -12,7 +12,7 @@ body {
   border-radius: 80px 0px 0px 90px;
   bottom: 20px;
   right: 0px;
-  background-color: #ffd106;
+  background-color: #ffd105;
   color: black;
   font-family: "Anton", sans-serif;
   text-align: center;
@@ -28,7 +28,7 @@ body {
     padding: 40px;
     font-size: 18px; }
   .header__nav__ul-hov {
-    background: linear-gradient(to right, #000808, #9aa5a5), linear-gradient(to right, red, #f1880f, #eeff07);
+    background: linear-gradient(to right, #000808, #9aa5a5), linear-gradient(to right, black, #ffd105);
     background-size: 100% 3px, 0 3px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -253,9 +253,7 @@ h4 {
 @media (max-width: 425px) {
   fieldset {
     width: 80%;
-    min-width: 100%; }
-  .seccion2__caja p {
-    margin: 0px !important; } }
+    min-width: 100%; } }
 
 @media (max-width: 575px) {
   .footer__box {
@@ -376,7 +374,7 @@ h4 {
   justify-content: stretch;
   padding: 20px; }
   .main__section__box__card {
-    background-color: #ffd106;
+    background-color: #ffd105;
     width: 300px;
     height: 300px;
     padding: 20px;
@@ -428,22 +426,21 @@ h4 {
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    background-image: linear-gradient(to right, #110d0e, #443f3b, #ef9d43, #e75516);
-    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75); }
+    background-image: linear-gradient(to right, #443f3b, #110d0e, #ffd105); }
     .main__sec1 .card__buttom .hov:hover {
       background-position: 100% 0;
-      moz-transition: all .4s ease-in-out;
+      -moz-transition: all .4s ease-in-out;
       -o-transition: all .4s ease-in-out;
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out; }
   .main__sec1 h1 {
     color: white; }
   .main__sec1__box {
-    background-color: #ffd106;
+    background-color: #ffd105;
     margin-left: 0px !important;
     margin-right: 0px !important; }
     .main__sec1__box-1 {
@@ -479,7 +476,7 @@ h4 {
   margin: 5px; }
   .seccion2__caja h3 {
     text-align: center;
-    color: #ffd106; }
+    color: #ffd105; }
   .seccion2__caja p {
     color: white;
     text-align: left;
@@ -488,7 +485,7 @@ h4 {
     margin-left: 30px; }
 
 .section__logo {
-  background-color: #ffd106;
+  background-color: #ffd105;
   padding-top: 50px;
   padding-bottom: 50px;
   color: #a39b9b; }
@@ -509,7 +506,7 @@ h4 {
 
 .card {
   width: 288px;
-  background-color: #ffd106;
+  background-color: #ffd105;
   box-shadow: 1px 1px 6px #fff9f9;
   border: #030303;
   margin-bottom: 45px; }
@@ -563,7 +560,7 @@ fieldset {
 
 .card-deck {
   width: 550px;
-  background-color: #ffd106;
+  background-color: #ffd105;
   padding: 15px;
   border: #030303;
   margin-bottom: 45px;

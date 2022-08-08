@@ -37,9 +37,9 @@ body {
         &__ul-hov {
             background: linear-gradient(to right, rgb(0, 8, 8), rgb(154, 165, 165)),
                 linear-gradient(to right,
-                    rgba(255, 0, 0, 1),
-                    rgb(241, 136, 15),
-                    rgb(238, 255, 7));
+                    
+                    rgb(0, 0, 0),
+                    rgb(255, 209, 5));
             background-size: 100% 3px, 0 3px;
             background-position: 100% 100%, 0 100%;
             background-repeat: no-repeat;
@@ -400,9 +400,6 @@ h4{
     fieldset {
       width: 80%;
       min-width: 100%;
-    }
-    .seccion2__caja p{
-      margin: 0px!important;
     }
   }
   @media (max-width: 575px) {

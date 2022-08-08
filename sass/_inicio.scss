@@ -23,8 +23,8 @@
             -o-transition: all .4s ease-in-out;
             -webkit-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
-            background-image: linear-gradient(to right, #110d0e, #443f3b, #ef9d43, #e75516);
-            box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+            background-image: linear-gradient(to right, #443f3b, #110d0e, $amarillo);
+            
 
             &:hover {
                 background-position: 100% 0;
