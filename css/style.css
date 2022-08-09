@@ -29,18 +29,17 @@ body {
     font-size: 18px; }
   .header__nav__ul-hov:hover {
     color: transparent;
-    background-image: repeating-linear-gradient(90deg, #fffefe 40px, #ffd106 100px);
+    background-image: repeating-linear-gradient(90deg, #ffd106 90px, #fffefe 90px, #ffd106 200px);
     background-clip: text;
-    background-size: 1000%;
+    background-size: 90%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: color 10s linear; }
-
-@keyframes color {
-  from {
-    background-position: 0% 50%; }
-  to {
-    background-position: 50% 100%; } }
+    animation: color 10s linear;
+    background-position: 100% 0;
+    -moz-transition: all .10s ease-in-out;
+    -o-transition: all .10s ease-in-out;
+    -webkit-transition: all .10s ease-in-out;
+    transition: all .4s ease-in-out; }
 
 h4 {
   font-family: "Roboto Slab", serif; }
@@ -518,17 +517,6 @@ h4 {
   box-shadow: 1px 1px 6px #fff9f9;
   border: #030303;
   margin-bottom: 45px; }
-  .card form {
-    text-align: center; }
-  .card .btn {
-    background-color: #d83c0c;
-    color: white;
-    padding: 10px;
-    border-width: thin;
-    border-radius: 10px;
-    border-color: white;
-    box-shadow: 2px 1px 1px #5c5c5c;
-    cursor: pointer; }
   .card .card-title {
     font-family: "Roboto Slab", serif;
     text-align: center;
