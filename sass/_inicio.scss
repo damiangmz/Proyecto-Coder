@@ -2,8 +2,12 @@
     width: 100%;
 }
 
-.main__sec1 {
+.main__sec1 { /*tarjetas amarillas*/
     padding: 0px;
+    p{
+        line-height: 6vh;
+    }
+    
 
     .card__title {
         margin-bottom: 4vh;
@@ -13,7 +17,7 @@
 
     .card__buttom {
 
-        .hov {
+        .hov { 
             /*hover boton*/
             width: 120px;
             font-size: 16px;

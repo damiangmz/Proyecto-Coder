@@ -1,9 +1,6 @@
 body {
   background-image: url(../assets/background.webp);
   background-size: contain;
-  p{
-    font-family: 'Roboto', sans-serif;
-  }
   h1{
     font-family: 'Roboto Condensed', sans-serif;
   }
@@ -12,7 +9,7 @@ body {
   }
 }
 
-.btn__pedir {
+.btn__pedir {/*boton seccion principal*/
   box-shadow: 3px 5px 10px 0px;
   border: 0px solid #000000;
   text-decoration: none;
@@ -94,6 +91,7 @@ h4 {
   }
 
   .li_footer {
+    
     &:hover {
       transform: scale(1.1);
       transition-duration: 0.5s;
@@ -127,11 +125,12 @@ h4 {
 
   &__box {
     max-width: 300px;
+    margin-top: 15px;
 
 
     &-img {
-      width: 180px;
-      height: 160px;
+      width: 80x;
+      height: 80px;
 
     }
 
