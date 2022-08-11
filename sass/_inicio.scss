@@ -4,10 +4,15 @@
 
 .main__sec1 {
     padding: 0px;
+    .card__title{
+        margin-bottom: 2vh;
+    }
+
+
 
     .card__buttom {
 
-        .hov {
+        .hov {  /*hover boton*/
             width: 120px;
             font-size: 16px;
             font-weight: 600;
@@ -42,7 +47,7 @@
         color: white;
     }
 
-    &__box {
+    &__box { /*secciones principales*/
         background-color: $amarillo;
         margin-left: 0px !important;
         margin-right: 0px !important;
@@ -70,10 +75,10 @@
 }
 
 .seccion2 {
-    img {
+    img { 
         animation: rotation 15s infinite linear forwards;
 
-        @keyframes rotation {
+        @keyframes rotation { /*animacion hamburguesa*/
             0% {
                 transform: rotateX(0deg);
             }
@@ -96,7 +101,7 @@
         }
     }
 
-    &__caja {
+    &__caja { /*seccion ingredientes*/
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -119,7 +124,7 @@
 
 }
 
-.section__logo {
+.section__logo { /* seccion de logos*/
     background-color: $amarillo;
     padding-top: 50px;
     padding-bottom: 50px;
