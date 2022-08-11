@@ -40,12 +40,13 @@
 }
 
 .footer {
-   
-    li{
+
+    li {
         padding: 15px;
         list-style: none;
-        
+
     }
+
     ul {
         display: flex;
         flex-direction: column;
@@ -66,12 +67,12 @@
 
     &__box {
         max-width: 300px;
-        
+
 
         &-img {
             width: 180px;
             height: 160px;
-        
+
         }
     }
 }

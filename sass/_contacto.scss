@@ -19,15 +19,30 @@ fieldset {
         text-align: center;
     }
     .form__imput {
-        width: 100px;
-        background-color: rgb(216, 60, 12);
-        color: white;
-        padding: 10px;
-        border-width: thin;
-        border-radius: 10px;
-        border-color: white;
-        box-shadow: 2px 1px 1px rgb(92, 92, 92);
+        width: 120px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
         cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align: center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        background-image: linear-gradient(to right, #443f3b, #110d0e, $amarillo);
+        &:hover {
+            background-position: 100% 0;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+
+        }
       }
 }
 .section__map {
