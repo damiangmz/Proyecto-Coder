@@ -475,13 +475,14 @@ h4 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .footer__box {
     display: flex;
     flex-direction: column;
     max-width: 100% !important;
-
-
+  }
+  .section__nosotros{
+    width: 100%!important;
   }
 
   ul {
@@ -547,6 +548,14 @@ h4 {
   }
 
 }
+@media (max-width: 992px) {
+  .seccion2__caja{
+    p{
+      text-align: center!important;
+    }
+  }
+  
+}
 
 @media (max-width: 1024px) {
   .main__sec1 {
@@ -603,11 +612,7 @@ h4 {
 }
 
 @media (max-width: 1055px) {
-  .main__sec1__box {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+  
 
   .sec_burg_1 {
     width: 100%;
@@ -650,6 +655,20 @@ h4 {
     padding: 20px;
   }
 }
+@media (max-width: 1218px) {
+  .main__sec1__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%!important;
+    &-1{
+      width: 100%;
+
+    }
+   
+    
+  }
+}
+
 
 @media (max-width: 1440px) {
   .main__sec1 {
@@ -658,5 +677,11 @@ h4 {
 
   .main__sec1__box {
     margin: 0px;
+  }
+  .seccion2{
+    p{
+      line-height: 30px !important;
+    }
+    
   }
 }

@@ -13,6 +13,7 @@
 
 
 .section__nosotros {/*seccion principal*/
+    width: 800px;
     h1 {
         font-family: "Roboto Slab", serif;
         font-size: xx-large;
@@ -23,6 +24,8 @@
     p {
         font-size: 20px;
         text-align: center;
+        font-weight: 100;
+        
     }
 
     &__nosotros {
@@ -31,6 +34,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 50px;
+        
     }
 }
 
