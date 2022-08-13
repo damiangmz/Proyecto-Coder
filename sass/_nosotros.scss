@@ -1,26 +1,33 @@
-.card-deck {
+.card-deck { /*tarjeta chef*/
     width: 550px;
     background-color: $amarillo;
     padding: 15px;
     border: rgb(3, 3, 3);
     margin-bottom: 45px;
     text-align: center;
+    border-radius: 10px 10px 0px 0px;
 }
-.card{
+
+.card {
     z-index: -1;
 }
 
 
-.section__nosotros {
+.section__nosotros {/*seccion principal*/
+    width: 800px;
     h1 {
         font-family: "Roboto Slab", serif;
         font-size: xx-large;
         text-align: center;
         padding-top: 20px;
+        color: $amarillo;
     }
-    p{
+
+    p {
         font-size: 20px;
         text-align: center;
+        font-weight: 100;
+        
     }
 
     &__nosotros {
@@ -29,6 +36,7 @@
         flex-direction: column;
         justify-content: center;
         padding: 50px;
+        
     }
 }
 

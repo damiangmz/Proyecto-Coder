@@ -1,5 +1,7 @@
 .main {
     &__section {
+
+        /*seccion principal*/
         &__img-1 {
             width: 100%;
         }
@@ -11,6 +13,7 @@
             padding: 20px;
 
             &__card {
+                /*tarjetas amarillas*/
                 background-color: $amarillo;
                 width: 300px;
                 height: 300px;
@@ -37,41 +40,4 @@
 
     }
 
-}
-
-.footer {
-   
-    li{
-        padding: 15px;
-        list-style: none;
-        
-    }
-    ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(94, 93, 91, 1) 0%,
-        rgba(5, 3, 0, 1) 100%);
-    padding: 50px;
-    color: white;
-
-    &__box {
-        max-width: 300px;
-        
-
-        &-img {
-            width: 180px;
-            height: 160px;
-        
-        }
-    }
 }
