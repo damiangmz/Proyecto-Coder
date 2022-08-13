@@ -603,7 +603,8 @@ fieldset {
   padding: 15px;
   border: #030303;
   margin-bottom: 45px;
-  text-align: center; }
+  text-align: center;
+  border-radius: 10px 10px 0px 0px; }
 
 .card {
   z-index: -1; }
@@ -615,7 +616,8 @@ fieldset {
     font-family: "Roboto Slab", serif;
     font-size: xx-large;
     text-align: center;
-    padding-top: 20px; }
+    padding-top: 20px;
+    color: #ffd106; }
   .section__nosotros p {
     font-size: 20px;
     text-align: center;
